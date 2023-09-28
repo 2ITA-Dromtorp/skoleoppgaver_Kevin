@@ -25,7 +25,6 @@ function Vinner(player, computer) {
     return 'Bot vant';
   }
 } 
-
 function Spill(playerChoice) {
   if (!choices.includes(playerChoice)) {
     console.log('Stein, saks, papir');
