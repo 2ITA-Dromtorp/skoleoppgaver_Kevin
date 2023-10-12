@@ -1,6 +1,5 @@
 import './App.css';
 import Klokke from './Klokke';
-import SSP from './SSP';
 
 function App() {
   
@@ -8,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
 
-        <SSP />
+        <Klokke />
 
       </header>
     </div>
