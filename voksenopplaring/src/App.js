@@ -1,15 +1,16 @@
 import React from 'react';
-import styles from 'react';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="navbar">
-      <li style={styles.navItem}><a href="Hjem">Hjem</a></li>
-      <li style={styles.navItem}><a href="about">Om kurset</a></li>
-      <li style={styles.navItem}><a href="contact">Kontakt oss</a></li>
+   <div className='logginn'>
+    <h1> Vennligts logg inn før du fortsetter </h1>
+   </div>
+    <div className='Bruker'>
+      
     </div>
   );
 }
 
-export default App;
+  export default App;

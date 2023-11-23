@@ -1,7 +1,8 @@
 import React from "react";
 import { useState } from "react";
 
-const LoginWindow = ({ onClose }) => {
-    const [username, setUsername] = useState('skole123');
-    const [password, setPassword] = useState('skole123');
+export default function Login() {
+    return (
+        <h2>Login page</h2>
+    )
 }
