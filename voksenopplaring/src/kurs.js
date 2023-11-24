@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import image2 from './images/image2.jpg';
+import Login from './login';
 
 
 function App() {
@@ -9,7 +11,7 @@ function App() {
       <div className='left'>
 
           <div className='box'> 
-            <img src='path/to/image2.jpg' alt='Image 2' />
+            <img src={image2} alt="Norsk" />
           </div>
           <div className='box'>
             <img src='path/to/image2.jpg' alt='Image 2' />
