@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import image2 from './images/image2.jpg';
-import Login from './login';
 
 
 function App() {

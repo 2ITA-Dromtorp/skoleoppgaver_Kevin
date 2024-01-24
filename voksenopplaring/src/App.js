@@ -1,25 +1,26 @@
 import React from 'react';
-import image2 from './images/image2.jpg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Kurs from './kurs.js';
+import LoginForm from './LoginForm';
 import './App.css';
 
-function App() {
-  const handleLogin = () => {
-    console.log('');
-  };
-
+function Home() {
   return (
-    <div className='loginbox'>
-      <div className='logginn'>
-        <h1> Vennligts logg inn før du fortsetter </h1>
-        <button className='button'onClick={handleLogin}>Log in</button>
-        <label htmlFor="username">Brukernavn eller Email</label>
-        <input
-            type="username"
-            id="username"
-            name="username"
-            />
-      </div>
+    <div className='hjem'>
+      
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/kurs" element={<Kurs />} />
+      </Routes>
+      <LoginForm />
+    </Router>
   );
 }
 
