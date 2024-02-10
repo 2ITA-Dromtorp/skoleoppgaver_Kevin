@@ -13,5 +13,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_REACT_LOGIN_1A01D }}'
-          projectId: react-login-1a01d
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_NFC_PROSJEKT }}'
+          projectId: nfc-prosjekt
