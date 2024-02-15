@@ -29,7 +29,7 @@ function App() {
 
   const fetchQuestions = async () => {
     try {
-      const response = await fetch('http://localhost:3001/questions');
+      const response = await fetch('/questions');
       const data = await response.json();
       setQuestions(data);
     } catch (error) {
