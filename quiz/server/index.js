@@ -28,6 +28,26 @@ const questions = [
     question: 'Hva står "LAN" for?',
     options: ['Large Area Network', 'Linked Area Network', 'Local Access Network', 'Local Area Network'],
     correctAnswer: 'Local Area Network'
+  },
+  {
+    question: 'Hva er formålet med en VPN?',
+    options: ['Å øke Internett-hastigheten', 'Å sikre en privat og sikker tilkobling over et offentlig nettverk', 'Å begrense tilgangen til bestemte nettsider', 'Å kontrollere datatrafikken til serveren'],
+    correctAnswer: 'Å sikre en privat og sikker tilkobling over et offentlig nettverk'
+  },
+  {
+    question: 'Hva er en vanlig oppgave for en nettverksadministrator?',
+    options: ['Designe nettsider', 'Feilsøking av nettverksproblemer', 'Utvikling av mobilapper', 'Administrering av sosiale medier-kontoer'],
+    correctAnswer: 'Feilsøking av nettverksproblemer'
+  },
+  {
+    question: 'Hva er formålet med DNS?',
+    options: ['Å kryptere Internett-trafikk', 'Å spore Internett-aktivitet', 'Å omgå brannmurer', 'Å oversette domenenavn til IP-adresser'],
+    correctAnswer: 'Å oversette domenenavn til IP-adresser'
+  },
+  {
+    question: 'Hva er et vanlig sikkerhetstiltak for å beskytte mot skadelig programvare?',
+    options: ['Oppdatering av antivirusprogramvare', 'Sletting av alle e-poster', 'Åpning av alle vedlegg', 'Deaktivering av brannmur'],
+    correctAnswer: 'Oppdatering av antivirusprogramvare'
   }
 ];
 
